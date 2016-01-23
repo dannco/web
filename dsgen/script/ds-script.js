@@ -1,7 +1,7 @@
 var props = ["startClass","weaponType","offHand",
     "armor","magic","startGift"];
 
-var values = [[
+var values = [[ // Deprived not included
     "Warrior","Knight",
     "Wanderer","Thief",
     "Bandit","Hunter",
@@ -84,13 +84,14 @@ var values = [[
 
 function rollDS1() {
     for (i in props) {
-        var roll = Math.floor(Math.random()*values[i].length);      
+        var roll = Math.floor(Math.random()*values[i].length);
         var result = values[i][roll];
-        if (i==2 && roll==5) {
+        if (i==2 && roll==5) { // if dual wielding, roll the specific value from the weapon table.
             roll = Math.floor(Math.random()*values[1].length);
             result = values[1][roll];
         }
-        document.getElementById(props[i]).innerHTML = result;
+        // insert the rolled value into the element with the same name
+        document.getElementById(props[i]).innerHTML = result; 
     }
 }
 function rollDS2() {}
