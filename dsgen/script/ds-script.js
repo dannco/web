@@ -69,7 +69,6 @@ var values = [[ // Deprived not included
 ,"Iron Golem Set"
 ,"Stone Knight Set"
 ,"Guardian Set DLC"
-
 ],[
     "No magic","Sorcery","Pyromancy","Miracles"
 ],[ 
