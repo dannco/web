@@ -1,0 +1,36 @@
+body {
+	background:black;
+	font-family:"Palantino Linotype";
+	font-size: 25px;
+	color:white;
+}
+
+.tooltip .tooltext{
+	visibility: hidden;
+	color: #fff;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+	transition-property: visibility;
+}
+div.panel {
+	width:700px;
+	margin: 0 auto;
+	padding: 15px 0px 15px 0px;
+}
+label.propName {
+	display:inline-block;
+	width:150px;
+}
+
+.content_div {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	color:red;
+	text-size:35px;
+	border-radius: 5px;
+	padding: 20px 15px 10px 15px;
+}

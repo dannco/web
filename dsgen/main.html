@@ -1,0 +1,44 @@
+<html>
+ <head>
+   <script src= "script/ds2-script.js"></script>
+   <link rel="stylesheet" href="style/ds-theme.css">
+   <title>Dark Souls generator</title>
+ </head>
+ <body>
+ <div class="content_div">
+  
+  
+  <div class="panel" id="panel_cls"><label class="propName">Class:</label><label id="startClass"></label></div>
+  <div class="panel" id="panel_wep"><label class="propName">Weapon:</label><label id="weaponType"></label></div>
+  <div class="panel" id="panel_off"><label class="propName">Off-hand:</label><label id="offHand"></label></div>
+  <div class="panel" id="panel_mag"><label class="propName">Magic:</label><label id="magic"></label></div>
+  <div class="panel" id="panel_arm"><label class="propName">Armor:</label><label id="armor"></label></div>
+  <div class="panel" id="panel_gft"><label class="propName">Gift:</label><label id="startGift"></label></div>
+  <label class="button" onclick="rollDS2()">Roll</label>
+  
+  <div class = "tooltipContainer">
+  <div class="tooltip weaponType"><span class = "tooltext">
+    Your chosen weapon type. Use the weapon of your starting class until you find one of the
+    correct type.
+    If you are allowed to use magic, spell tools can be upgraded and equipped to any slot.
+  </span></div>
+  <div class="tooltip offHand"><span class = "tooltext">
+    Determines what you are allowed to upgrade and equip to your off-hand slot.
+  </span></div>
+  <div class="tooltip magic"><span class = "tooltext">
+    The kind of magic you are allowed to use. If your result is "Pick two", you can choose 
+    any two out of Sorcery, Miracle and Pyromancy.
+  </span></div>
+  <div class="tooltip armor tooltext"><span class = "tooltext">
+    This is the armor set you are allowed to upgrade and equip. Until you find your chosen set,
+    use the armor of your starting class.
+  </span></div>
+  </div>
+  
+ </div>
+  
+  </body>
+  
+  
+  
+</html>
