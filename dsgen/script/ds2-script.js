@@ -34,8 +34,6 @@ var values = [[ // Deprived not included
 ],[ 
 "Nothing","Life Ring","Human Effigy","Healing Wares","Homeward Bone","Seed of a Tree of Giants","Bonfire Ascetic","Petrified Something"
 ]];
-console.log(document.getElementById("startClass"));
-document.getElementById("startClass").innerHTML = "FOOO";
 
 function rollDS2() {
     for (i in props) {
