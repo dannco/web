@@ -1,0 +1,47 @@
+#darkness {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-radius:10;
+}
+
+
+#batteryCont {
+    padding:2px;
+    position:fixed;
+    top:5px;
+    right:5px;
+    width:100px;
+    height:10px;
+    background-color:darkgreen;
+    border:2px solid grey;
+    border-radius:3px;
+}
+#battery{
+    width:100%;
+    height:100%;
+    background-color:green;
+}
+
+
+.thing{
+    box-shadow: 10px 10px 20px black;
+    width:30px;
+    height:540px;
+    position:fixed;
+    background-color:grey;
+    z-index:-1;
+    border-radius:5px;
+}
+
+#thing1 {
+    left:50%;
+    top:50%;
+}
+
+#thing2 {
+    left:20%;
+    top:60%;
+}
