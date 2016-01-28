@@ -1,6 +1,6 @@
 <html>
  <head>
-   <script src= "script/ds2-script.js"></script>
+   <script src= "script/ds_script.js"></script>
    <link rel="stylesheet" href="style/ds-theme.css">
    <title>Dark Souls generator</title>
  </head>
@@ -14,7 +14,19 @@
   <div class="panel" id="panel_mag"><label class="propName">Magic:</label><label id="magic"></label></div>
   <div class="panel" id="panel_arm"><label class="propName">Armor:</label><label id="armor"></label></div>
   <div class="panel" id="panel_gft"><label class="propName">Gift:</label><label id="startGift"></label></div>
-  <label class="button" onclick="rollDS2()">Roll</label>
+  
+  
+  <div class="button-panel">
+  
+    <label class="switch">
+      <input id="toggle1" type="checkbox" class="switch-input">
+      <span class="switch-label" ds1="DS1" ds2="DS2"></span>
+      <span class="switch-handle"></span>
+    </label>
+
+	<label class="button" onclick="roll()">ROLL</label>
+
+  </div>
   
   <div class = "tooltipContainer">
   <div class="tooltip weaponType"><span class = "tooltext">
